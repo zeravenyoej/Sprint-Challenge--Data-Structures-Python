@@ -17,7 +17,7 @@ class BSTNode:
                 self.right.insert(value)
     
     def contains(self, target):
-        if target is self.value:
+        if target == self.value:
             return True
         elif target < self.value:
             if self.left is None:
